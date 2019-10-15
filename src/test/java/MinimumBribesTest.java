@@ -36,7 +36,7 @@ public class MinimumBribesTest {
         int[] q = new int[]{ 1, 2, 5, 3, 7, 8, 6, 4 };
         int actual = MinimumBribes.minimumBribes(q);
 
-        int expected = 6;
+        int expected = 7;
 
         assertEquals(expected, actual);
     }
@@ -49,6 +49,17 @@ public class MinimumBribesTest {
         int actual = MinimumBribes.minimumBribes(q);
 
         int expected = -1;
+
+        assertEquals(expected, actual);
+    }
+    @Test
+    public void testCase4() {
+
+
+        int[] q = new int[]{ 1, 2, 5, 3, 7, 8, 6, 4 };
+        int actual = MinimumBribes.minimumBribes(q);
+
+        int expected = 7;
 
         assertEquals(expected, actual);
     }
