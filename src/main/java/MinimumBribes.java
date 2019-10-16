@@ -52,7 +52,7 @@ public class MinimumBribes {
                 int prev = q[p - 1];
                 q[p] = prev;
                 q[p - 1] = v;
-                p = 0;
+                p = p - 1;
                 c++;
                 continue;
             }
